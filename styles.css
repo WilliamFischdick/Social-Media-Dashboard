@@ -1,0 +1,28 @@
+
+@import url("styles/header.css");
+
+
+.root {
+
+    --cor-verde: #1db489;
+    --cor-vermelho: #dc414c;
+    --cor-tira-facebook: #198ff5;
+    --cor-tira-twitter: #1ca0f2;
+    --cor-tira-instagram: linear gradient #fdc468 to #df4996;
+    --cor-tira-youtube: #c4032a;
+    --darktheme-button-background: linear gradient #378fe6 to #3eda82;
+    --lighttheme-button-background: #aeb3cb;
+    --darktheme-background: #1e202a;
+    --darktheme-header: #1f212e;
+    --darktheme-card: #252a41;
+    --darktheme-text: #8b97c6;
+    --darktheme-text-white: #ffffff;
+    --lighttheme-background: #ffffff;
+    --lighttheme-header: #f5f7ff;
+    --lighttheme-card: #f0f2fa;
+    --lighttheme-text: #63687e;
+    --lighttheme-text-black: #1e202a;
+    --fonte-principal: 'Inter';
+}
+
+
