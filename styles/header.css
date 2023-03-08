@@ -1,0 +1,41 @@
+
+.container__header {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lighttheme-header);
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+}
+
+.titulo__principal {
+    color: var(--lighttheme-text-black);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--fonte-textos);
+}
+
+.followers {
+    font-family: var(--fonte-textos);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--lighttheme-text);
+    padding: 0.65em 0 1.5em 0;
+}
+
+hr {
+    margin: 0;
+}
+
+.container__botao {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5em;
+}
+
+.nome__botao {
+    font-family: var(--fonte-textos);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--lighttheme-text);
+}

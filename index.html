@@ -13,98 +13,119 @@
 </head>
 <body>
   <header>
-    <h1 class="titulo__principal">Social Media Dashboard</h1>
-    <span class="followers">Total followers: 23,004</span>
-    <hr class="divisoria">
-    <div class="container__botao">
-      <span class="nome__botao">Dark Mode</span>
-      <div class="container__botao-switch">
-        <label for="toggle-btn-1"></label>
-        <input type="checkbox" id="toggle-btn-1">
+    <div class="container__header">
+      <h1 class="titulo__principal">Social Media Dashboard</h1>
+      <span class="followers">Total followers: 23,004</span>
+      <hr />
+      <div class="container__botao">
+        <span class="nome__botao">Dark Mode</span>
+        <div class="container__botao-switch">
+          <label for="toggle-btn-1"></label>
+          <input type="checkbox" id="toggle-btn-1">
+        </div>
       </div>
     </div>
   </header>
   <main>
     <section class="container__socialmedia">
-      <div class="container__facebook">
-        <img src="img/icon-facebook.svg" alt="Facebook icon" class="facebook-icon">
-        <span class="socialmedia__user">@nathanf</span>
-        <span class="followers__number">1987</span>
-        <span class="followers__text">Followers</span>
-        <span class="new__followers">* 12 Today</span>
+      <div class="card__socialmedia">
+        <div class="container__socialmedia-card-1">
+          <div class="container__titulo-principal">
+            <img src="img/icon-facebook.svg" alt="Facebook icon" class="facebook-icon">
+            <span class="socialmedia__user">@nathanf</span>
+          </div>  
+          <span class="followers__number">1987</span>
+          <span class="followers__text">Followers</span>
+          <span class="new__followers"><img src="img/icon-up.svg" class="up-icon"> 12 Today</span>
+        </div>
       </div>
-      <div class="container__facebook">
-        <img src="img/icon-facebook.svg" alt="Facebook icon" class="facebook-icon">
-        <span class="socialmedia__user">@nathanf</span>
-        <span class="followers__number">1987</span>
-        <span class="followers__text">Followers</span>
-        <span class="new__followers">* 12 Today</span>
+      
+      <div class="card__socialmedia">
+        <div class="container__socialmedia-card-2">
+          <div class="container__titulo-principal">
+            <img src="img/icon-twitter.svg" alt="twitter icon" class="twitter-icon">
+            <span class="socialmedia__user">@nathanf</span>
+          </div>
+          <span class="followers__number">1044</span>
+          <span class="followers__text">Followers</span>
+          <span class="new__followers"><img src="img/icon-up.svg" class="up-icon"> 99 Today</span>
+        </div>
       </div>
-      <div class="container__facebook">
-        <img src="img/icon-facebook.svg" alt="Facebook icon" class="facebook-icon">
-        <span class="socialmedia__user">@nathanf</span>
-        <span class="followers__number">1987</span>
-        <span class="followers__text">Followers</span>
-        <span class="new__followers">* 12 Today</span>
+      
+      <div class="card__socialmedia">
+        <div class="container__socialmedia-card-3">
+          <div class="container__titulo-principal">
+            <img src="img/icon-instagram.svg" alt="Instagram icon" class="instagram-icon">
+            <span class="socialmedia__user">@realnathanf</span>
+          </div>
+          <span class="followers__number">11k</span>
+          <span class="followers__text">Followers</span>
+          <span class="new__followers"><img src="img/icon-up.svg" class="up-icon"> 1099 Today</span>
+        </div>
       </div>
-      <div class="container__facebook">
-        <img src="img/icon-facebook.svg" alt="Facebook icon" class="facebook-icon">
-        <span class="socialmedia__user">@nathanf</span>
-        <span class="followers__number">1987</span>
-        <span class="followers__text">Followers</span>
-        <span class="new__followers">* 12 Today</span>
+      
+      <div class="card__socialmedia">
+        <div class="container__socialmedia-card-4">
+          <div class="container__titulo-principal">
+            <img src="img/icon-youtube.svg" alt="Youtube icon" class="youtube-icon">
+            <span class="socialmedia__user">Nathan F.</span>
+          </div>
+          <span class="followers__number">8239</span>
+          <span class="followers__text">Subscribers</span>
+          <span class="down__followers"><img src="img/icon-down.svg" class="down-icon"> 144 Today</span>
+        </div>
       </div>
     </section>
   </main>
   <section class="container__overview">
     <h2 class="titulo__section">Overview - Today</h2>
-    <div>
-      <h3>Page Views</h3>
-      <img src="img/icon-facebook.svg" alt="Facebook Icon" class="facebook-icon">
+    <div class="facebook__card">
+      <h3 class="card__titulo">Page Views</h3>
+      <img src="img/icon-facebook.svg" alt="Facebook Icon" class="facebook-icon-card">
+      <span class="followers__number-card">87</span>
+      <span class="new__followers-card"><img src="img/icon-up.svg" class="up-icon"> 3%</span>
+    </div>
+    <div class="facebook__card">
+      <h3 class="card__titulo">Page Likes</h3>
+      <img src="img/icon-facebook.svg" alt="Facebook Icon" class="facebook-icon-card">
+      <span class="followers__number-card">52</span>
+      <span class="new__followers-card"><img src="img/icon-down.svg" class="down-icon"> 2%</span>
+    </div>
+    <div class="instagram__cards">
+      <h3 class="card__titulo">Likes</h3>
+      <img src="img/icon-instagram.svg" alt="Instagram Icon" class="instagram-icon-card">
+      <span class="followers__number-card">5462</span>
+      <span class="new__followers-card"><img src="img/icon-up.svg" class="up-icon"> 2257%</span>
+    </div>
+    <div class="instagram__cards">
+      <h3 class="card__titulo">Profile Views</h3>
+      <img src="img/icon-instagram.svg" alt="Instagram Icon" class="instagram-icon-card">
+      <span class="followers__number-card">52k</span>
+      <span class="new__followers-card"><img src="img/icon-up.svg" class="up-icon"> 1375%</span>
+    </div>
+    <div class="twitter__cards">
+      <h3 class="card__titulo">Retweets</h3>
+      <img src="img/icon-twitter.svg" alt="Twitter Icon" class="twitter-icon-card">
       <span class="followers__number-card">87</span>
       <span class="new__followers-card">*3%</span>
     </div>
-    <div>
-      <h3>Page Views</h3>
-      <img src="img/icon-facebook.svg" alt="Facebook Icon" class="facebook-icon">
-      <span class="followers__number-card">87</span>
-      <span class="new__followers-card">*3%</span>
+    <div class="twitter__cards">
+      <h3 class="card__titulo">Likes</h3>
+      <img src="img/icon-twitter.svg" alt="Twitter Icon" class="twitter-icon-card">
+      <span class="followers__number-card">507</span>
+      <span class="new__followers-card"><img src="img/icon-up.svg" class="up-icon"> 553%</span>
     </div>
-    <div>
-      <h3>Page Views</h3>
-      <img src="img/icon-facebook.svg" alt="Facebook Icon" class="facebook-icon">
-      <span class="followers__number-card">87</span>
-      <span class="new__followers-card">*3%</span>
+    <div class="youtube__cards">
+      <h3 class="card__titulo">Likes</h3>
+      <img src="img/icon-youtube.svg" alt="Youtube Icon" class="youtube-icon-card">
+      <span class="followers__number-card">107</span>
+      <span class="new__followers-card"><img src="img/icon-down.svg" class="down-icon"> 19%</span>
     </div>
-    <div>
-      <h3>Page Views</h3>
-      <img src="img/icon-facebook.svg" alt="Facebook Icon" class="facebook-icon">
-      <span class="followers__number-card">87</span>
-      <span class="new__followers-card">*3%</span>
-    </div>
-    <div>
-      <h3>Page Views</h3>
-      <img src="img/icon-facebook.svg" alt="Facebook Icon" class="facebook-icon">
-      <span class="followers__number-card">87</span>
-      <span class="new__followers-card">*3%</span>
-    </div>
-    <div>
-      <h3>Page Views</h3>
-      <img src="img/icon-facebook.svg" alt="Facebook Icon" class="facebook-icon">
-      <span class="followers__number-card">87</span>
-      <span class="new__followers-card">*3%</span>
-    </div>
-    <div>
-      <h3>Page Views</h3>
-      <img src="img/icon-facebook.svg" alt="Facebook Icon" class="facebook-icon">
-      <span class="followers__number-card">87</span>
-      <span class="new__followers-card">*3%</span>
-    </div>
-    <div>
-      <h3>Page Views</h3>
-      <img src="img/icon-facebook.svg" alt="Facebook Icon" class="facebook-icon">
-      <span class="followers__number-card">87</span>
-      <span class="new__followers-card">*3%</span>
+    <div class="youtube__cards">
+      <h3 class="card__titulo">Total Views</h3>
+      <img src="img/icon-youtube.svg" alt="Youtube Icon" class="youtube-icon-card">
+      <span class="followers__number-card">1407</span>
+      <span class="new__followers-card"><img src="img/icon-down.svg" class="down-icon"> 12%</span>
     </div>
   </section>
   
