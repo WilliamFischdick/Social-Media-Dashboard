@@ -1,16 +1,16 @@
 
 @import url("styles/header.css");
 @import url("styles/socialmedia.css");
+@import url("styles/finalcards.css");
 
 
 :root {
     --cor-verde: #1db489;
     --cor-vermelho: #dc414c;
     --cor-tira-facebook: #198ff5;
-    --cor-tira-twitter: #1ca0f2;
-    --cor-tira-instagram: linear-gradient(#fdc468, #df4996);
+    --cor-tira-twitter: #52b6f5;
     --cor-tira-youtube: #c4032a;
-    --darktheme-button-background: linear gradient #378fe6 to #3eda82;
+    --darktheme-button-background: linear-gradient(#378fe6 to #3eda82);
     --lighttheme-button-background: #aeb3cb;
     --darktheme-background: #1e202a;
     --darktheme-header: #1f212e;
