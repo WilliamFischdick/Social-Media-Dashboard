@@ -55,3 +55,20 @@
     font-weight: 700;
 }
 
+@media screen and (min-width: 1440px) {
+    
+    .container__overview {
+        padding: 0 19.5em 0 19.5em;
+    }
+
+    .container__overview__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 2em;
+    }
+    
+    .container__card {
+        padding-bottom: 2em;
+    }
+
+}
