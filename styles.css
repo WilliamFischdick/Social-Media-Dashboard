@@ -15,11 +15,13 @@
     --darktheme-background: #1e202a;
     --darktheme-header: #1f212e;
     --darktheme-card: #252a41;
+    --darktheme-card-hover: #333a56;
     --darktheme-text: #8b97c6;
     --darktheme-text-white: #ffffff;
     --lighttheme-background: #ffffff;
     --lighttheme-header: #f5f7ff;
     --lighttheme-card: #f0f2fa;
+    --lighttheme-card-hover: #e3e2f0;
     --lighttheme-text: #63687e;
     --lighttheme-text-black: #1e202a;
     --fonte-textos: "Inter";  

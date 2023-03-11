@@ -13,6 +13,7 @@
     border-top: 5px solid;
     border-color: var(--cor-tira-facebook);
     border-radius: 5px;
+    transition: 1s;
 }
 
 .container__socialmedia-card-2 {
@@ -25,6 +26,7 @@
     border-top: 5px solid;
     border-color: var(--cor-tira-twitter);
     border-radius: 5px;
+    transition: 1s;
 }
 
 .container__socialmedia-card-3 {
@@ -36,6 +38,7 @@
     height: 240px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    transition: 1s;
 }
 
 .border__instagram {
@@ -56,6 +59,7 @@
     border-top: 5px solid;
     border-color: var(--cor-tira-youtube);
     border-radius: 5px;
+    transition: 1s;
 }
 
 .socialmedia__user {
@@ -119,5 +123,19 @@
     .card__socialmedia {
         width: 300px;
         height: 250px;
+        cursor: pointer;
+    }
+    
+    .container__socialmedia-card-1:hover {
+        background-color: var(--lighttheme-card-hover);
+    }
+    .container__socialmedia-card-2:hover {
+        background-color: var(--lighttheme-card-hover);
+    }
+    .container__socialmedia-card-3:hover {
+        background-color: var(--lighttheme-card-hover);
+    }
+    .container__socialmedia-card-4:hover {
+        background-color: var(--lighttheme-card-hover);
     }
 }

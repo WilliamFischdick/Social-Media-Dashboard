@@ -25,6 +25,7 @@
     align-items: center;
     justify-items: center;
     padding-top: 1em;
+    transition: 1s;
 }
 
 .card__titulo {
@@ -69,6 +70,14 @@
     
     .container__card {
         padding-bottom: 2em;
+    }
+
+    .card__content {
+        cursor: pointer;
+    }
+
+    .card__content:hover {
+        background-color: var(--lighttheme-card-hover);
     }
 
 }
