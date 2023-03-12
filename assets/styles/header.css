@@ -1,0 +1,121 @@
+
+.container__header {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lighttheme-header);
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+    box-shadow: 0.5px 0.5px 10px 0.5px #000;
+}
+
+.titulo__principal {
+    color: var(--lighttheme-text-black);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--fonte-textos);
+}
+
+.followers {
+    font-family: var(--fonte-textos);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--lighttheme-text);
+    padding: 0.65em 0 1.5em 0;
+}
+
+hr {
+    margin: 0;
+}
+
+.container__botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.nome__botao {
+    font-family: var(--fonte-textos);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--lighttheme-text);
+}
+
+
+.toggle-btn label {
+    position: relative;
+    display: block;
+    width: 65px;
+    height: 31px;
+    background: var(--lighttheme-button-background);
+    border-radius: 30px;
+    transition: all 300ms linear;
+    cursor: pointer;
+}
+
+.toggle-btn label:before {
+    position: relative;
+    top: 3px;
+    left: 36px;
+    content:"";
+    width: 25px;
+    height: 25px;
+    background: var(--lighttheme-background);
+    display: block;
+    border-radius: 50%;
+    transition: all 300ms linear;
+}
+
+.toggle-btn input:checked + label {
+    background: var(--darktheme-button-background);
+}
+
+.toggle-btn input:checked + label:before {
+    left: 4.75px;
+}
+
+.toggle-btn input {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .container__header {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 5em 19em 0 19em;
+    }
+
+    .titulo__principal {
+        font-size: 50px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+ 
+    }
+
+    .followers {
+        font-size: 24px;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    hr {
+        display: none;
+    }
+    
+    .container__botao {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-content: flex-end;
+    }
+
+    .nome__botao {
+        font-size: 20px;
+        padding-right: 2em;
+    }
+
+}
+    

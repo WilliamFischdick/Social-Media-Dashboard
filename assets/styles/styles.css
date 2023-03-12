@@ -1,0 +1,44 @@
+
+@import url("header.css");
+@import url("socialmedia.css");
+@import url("finalcards.css");
+
+
+:root {
+    --cor-verde: #1db489;
+    --cor-vermelho: #dc414c;
+    --cor-tira-facebook: #198ff5;
+    --cor-tira-twitter: #52b6f5;
+    --cor-tira-youtube: #c4032a;
+    --darktheme-button-background: linear-gradient(90deg,#378fe6,#3eda82);
+    --lighttheme-button-background: #aeb3cb;
+    --darktheme-background: #1e202a;
+    --darktheme-header: #1f212e;
+    --darktheme-card: #252a41;
+    --darktheme-card-hover: #333a56;
+    --darktheme-text: #8b97c6;
+    --darktheme-text-white: #ffffff;
+    --lighttheme-background: #ffffff;
+    --lighttheme-header: #f5f7ff;
+    --lighttheme-card: #f0f2fa;
+    --lighttheme-card-hover: #e3e2f0;
+    --lighttheme-text: #63687e;
+    --lighttheme-text-black: #1e202a;
+    --fonte-textos: "Inter";  
+}
+
+body {
+    transition: 0.3s;
+    background-color: var(--lighttheme-background);
+}
+
+/* Dark Theme */
+
+.dark {
+    background-color: var(--darktheme-background);
+}
+
+.dark .container__header {
+    background-color: var(--darktheme-header);
+    box-shadow: 0.5px 0.5px 10px 0.5px #ffffff;
+}

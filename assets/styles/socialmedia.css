@@ -1,0 +1,145 @@
+
+.container__socialmedia {
+    padding: 2em 2em 1em 2em;
+}
+
+.container__socialmedia-card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--lighttheme-card);
+    width: 100%;
+    height: 240px;
+    border-top: 5px solid;
+    border-color: var(--cor-tira-facebook);
+    border-radius: 5px;
+    transition: 1s;
+    box-shadow: 0px 10px 10px -6px #000;
+}
+
+.container__socialmedia-card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--lighttheme-card);
+    width: 100%;
+    height: 240px;
+    border-top: 5px solid;
+    border-color: var(--cor-tira-twitter);
+    border-radius: 5px;
+    transition: 1s;
+    box-shadow: 0px 10px 10px -6px #000;
+}
+
+.container__socialmedia-card-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--lighttheme-card);
+    width: 100%;
+    height: 240px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 1s;
+    box-shadow: 0px 10px 10px -6px #000;
+}
+
+.border__instagram {
+    background-image: linear-gradient(90deg,#fdc468, #df4996);
+    width: 100%;
+    height: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.container__socialmedia-card-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--lighttheme-card);
+    width: 100%;
+    height: 240px;
+    border-top: 5px solid;
+    border-color: var(--cor-tira-youtube);
+    border-radius: 5px;
+    transition: 1s;
+    box-shadow: 0px 10px 10px -6px #000;
+}
+
+.socialmedia__user {
+    font-family: var(--fonte-textos);
+    color: var(--lighttheme-text);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container__titulo-principal {
+    padding-top: 2em;
+}
+
+.followers__number {
+    font-size: 60px;
+    font-family: var(--fonte-textos);
+    color: var(--lighttheme-text-black);
+    font-weight: 700;
+    padding-top: 0.5em;
+}
+
+.followers__text {
+    font-size: 14px;
+    font-family: var(--fonte-textos);
+    color: var(--lighttheme-text-black);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-top: 0.5em;
+}
+
+.new__followers {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--fonte-textos);
+    color: var(--cor-verde);
+    padding-top: 2em;
+}
+
+.down__followers {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--fonte-textos);
+    color: var(--cor-vermelho);
+    padding-top: 2em;
+}
+
+.card__socialmedia {
+    padding-bottom: 2em;
+}
+
+@media screen and (min-width: 1440px) {
+   
+    .container__socialmedia {
+       display: flex;
+       justify-content: center;
+       column-gap: 2em;
+       padding: 5em 10em 0 10em;
+
+    }
+
+    .card__socialmedia {
+        width: 300px;
+        height: 250px;
+        cursor: pointer;
+    }
+    
+    .container__socialmedia-card-1:hover {
+        background-color: var(--lighttheme-card-hover);
+    }
+    .container__socialmedia-card-2:hover {
+        background-color: var(--lighttheme-card-hover);
+    }
+    .container__socialmedia-card-3:hover {
+        background-color: var(--lighttheme-card-hover);
+    }
+    .container__socialmedia-card-4:hover {
+        background-color: var(--lighttheme-card-hover);
+    }
+}
