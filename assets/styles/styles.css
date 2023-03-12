@@ -2,6 +2,7 @@
 @import url("header.css");
 @import url("socialmedia.css");
 @import url("finalcards.css");
+@import url("darkmode.css");
 
 
 :root {
@@ -28,17 +29,6 @@
 }
 
 body {
-    transition: 0.3s;
+    transition: 0.5s;
     background-color: var(--lighttheme-background);
-}
-
-/* Dark Theme */
-
-.dark {
-    background-color: var(--darktheme-background);
-}
-
-.dark .container__header {
-    background-color: var(--darktheme-header);
-    box-shadow: 0.5px 0.5px 10px 0.5px #ffffff;
 }

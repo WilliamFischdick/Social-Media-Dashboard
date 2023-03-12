@@ -1,0 +1,45 @@
+
+.dark {
+    background-color: var(--darktheme-background);
+}
+
+.dark .container__header {
+    background-color: var(--darktheme-header);
+    box-shadow: 0.5px 0.5px 10px 0.5px #ffffff;
+}
+
+.dark .titulo__principal,
+.dark .nome__botao,
+.dark .followers__number,
+.dark .followers__number-card,
+.dark .titulo__section {
+    color: var(--darktheme-text-white);
+}
+
+.dark .followers,
+.dark .socialmedia__user,
+.dark .followers__text,
+.dark .card__titulo {
+    color: var(--darktheme-text);
+}
+
+.dark .toggle-btn label:before {
+    background: var(--darktheme-header);
+}
+
+.dark .container__socialmedia-card-1,
+.dark .container__socialmedia-card-2,
+.dark .container__socialmedia-card-3,
+.dark .container__socialmedia-card-4,
+.dark .card__content {
+    box-shadow: 0px 10px 10px -6px #ffffff;
+    background-color: var(--darktheme-card);
+}
+
+.dark .container__socialmedia-card-1:hover,
+.dark .container__socialmedia-card-2:hover,
+.dark .container__socialmedia-card-3:hover,
+.dark .container__socialmedia-card-4:hover,
+.dark .card__content:hover {
+    background-color: var(--darktheme-card-hover);
+}

@@ -130,16 +130,11 @@
         cursor: pointer;
     }
     
-    .container__socialmedia-card-1:hover {
-        background-color: var(--lighttheme-card-hover);
-    }
-    .container__socialmedia-card-2:hover {
-        background-color: var(--lighttheme-card-hover);
-    }
-    .container__socialmedia-card-3:hover {
-        background-color: var(--lighttheme-card-hover);
-    }
+    .container__socialmedia-card-1:hover,
+    .container__socialmedia-card-2:hover,
+    .container__socialmedia-card-3:hover,
     .container__socialmedia-card-4:hover {
         background-color: var(--lighttheme-card-hover);
     }
+    
 }
