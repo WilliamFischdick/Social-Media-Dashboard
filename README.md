@@ -1,11 +1,11 @@
 # Social-Media-Dashboard
-Um Dashboard para redes sociais com módulo  claro e escuro.
+Uma página que simula um Dashboard para redes sociais com módulo  claro e escuro.
 
 ## DETALHES DO PROJETO:
 O Objetivo principal do projeto foi desenvolver um 
-painel para mídias sociais que tivesse um design simples 
-com a opção de tema claro e escuro com a ativação através 
-de um botão utilizando a linguagem JavaScript para realizar 
+painel para mídias sociais com design simples 
+e a opção de tema claro e escuro com a ativação através 
+de um botão, utilizando a linguagem JavaScript para realizar 
 a troca do tema.
 
 ## Disponível para mobile e desktop.
